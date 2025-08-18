@@ -1,0 +1,9 @@
+title,author,email,price,publication_date
+"Harry Potter and the Sorcerer's Stone","J.K. Rowling","jkrowling@example.com",19.99,1997-06-26
+"The Hobbit","J.R.R. Tolkien","tolkien@middleearth.org",15.99,1937-09-21
+"Pride and Prejudice","Jane Austen","jane.austen@literature.co.uk",12.50,1813-01-28
+"Harry Potter and the Sorcerer's Stone","J.K. Rowling","jkrowling@example.com",19.99,1997-06-26
+"Invalid Book","Unknown Author","invalid-email",invalid,2025-13-01
+"1984","George Orwell","orwell@books.net",9.99,1949-06-08
+"Empty Title Book","","empty@books.com",10.00,2020-01-01
+"Negative Price Book","Test Author","test@author.com",-5.00,2023-05-15
