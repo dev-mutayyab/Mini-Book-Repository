@@ -168,7 +168,7 @@ books_repository.db (created after init)
 
 - **Why Redis (and why now)**: The app pings Redis on startup to ensure availability, since CSV processing status relies on it. Using Redis avoids coupling status to a single process and enables scaling the worker/API separately in the future.
 
-### Requirements checklist (mapping to this repo)
+### Requirements checklist (mapped to this repo)
 
 - **Core CRUD**:
   - Model: `app/models/books.py` contains `Books` with `id`, `title`, `author`, `price`, `publication_date` (equivalent to "published_date" in the task), `created_at`, `updated_at`.
