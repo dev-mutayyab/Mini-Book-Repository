@@ -13,6 +13,7 @@ class Settings(BaseSettings):
     # Your settings fields go here
     # Add other settings from your .env here
     DATABASE_URL: str = "sqlite:///./books_repository.db"
+    REDIS_URL: str = None
     JWT_SECRET: str = (
         "e2c24482effd2741d998d8a3d31359a3e0f8f76b432d081310a4fdfd315c1835fd2c177546e2c17ba6d06094dc994716bb9cb034fa7d7cd55dae53844ea134d4"
     )
