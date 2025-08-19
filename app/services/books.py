@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 class BookService:
     def __init__(self, db: Session):
         self.db = db
-        self.upload_dir = Path("uploads")
+        self.upload_dir = Path("/tmp/uploads")
         self.upload_dir.mkdir(exist_ok=True)
         self.redis = get_redis()
 
